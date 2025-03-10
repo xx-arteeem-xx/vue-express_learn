@@ -21,6 +21,12 @@ services:
     restart: always
     ports:
       - 8000:8000
+  
+  api:
+    build: api
+    restart: always
+    ports:
+      - 3000:3000
 
 volumes:
   db:
