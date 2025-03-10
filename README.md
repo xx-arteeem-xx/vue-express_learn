@@ -5,8 +5,9 @@
 
 
 ## Развертывание
+
+### Пуллим образ с гитхаба
 ``` sh
-# Пуллим образ с гитхаба
 git pull https://github.com/xx-arteeem-xx/vue-express_learn.git
 ```
 
@@ -15,8 +16,8 @@ git pull https://github.com/xx-arteeem-xx/vue-express_learn.git
  - Переносим файлы в корень проекта
  - Меняем переменные на свои
 
+### Создаем и запускаем docker-контейнер
 ``` sh
-# Создаем и запускаем docker-контейнер
 docker-compose up -d --build
 ```
 
