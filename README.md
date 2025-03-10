@@ -5,7 +5,7 @@
 ## Развертывание
 ``` sh
 # Пуллим образ с гитхаба
-git pull [ссылка]
+git pull https://github.com/xx-arteeem-xx/vue-express_learn.git
 
 # Создаем .env файлы с настройками подключения к БД. 
 # Для linux: 
