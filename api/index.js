@@ -1,20 +1,13 @@
 const express = require('express')
+const cors = require('cors')
+
 const app = express()
 const port = 3000
 
-const test_data = {
-    1: {
-        title: "test",
-        desc: "lorem ipsum dolor sit"
-    },
-    2: {
-        title: "test2",
-        desc: "lorem ipsum2"
-    }
-};
+app.use(cors())
 
-app.get('/', (req, res) => {
-  res.json(test_data);
+app.get('/api/getusers/', (req, res) => {
+  res.json(123);
 });
 
 app.listen(port, () => {
