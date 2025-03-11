@@ -2,8 +2,7 @@ FROM node:lts-alpine
 
 WORKDIR /api
 
-COPY package.json ./
-RUN npm install
+RUN npm install -g express
+RUN npm install -g nodemon
 
-COPY . .
-CMD [ "node", "index.js" ]
+EXPOSE 3000

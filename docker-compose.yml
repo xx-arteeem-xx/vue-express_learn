@@ -19,14 +19,24 @@ services:
   app:
     build: app
     restart: always
+    privileged: true
+    command: npm run dev
     ports:
       - 8000:8000
+    volumes:
+      - ./app:/app
   
   api:
     build: api
     restart: always
+    privileged: true
+    command: nodemon index.js
     ports:
       - 3000:3000
+    env_file:
+      - ./env/api.env
+    volumes:
+      - ./api:/api
 
 volumes:
   db:
