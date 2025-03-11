@@ -30,8 +30,8 @@ export default {
       })
         .then((response) => {
           response.json().then((data) => {
-            this.name = data[1].name;
-            this.desc = data[1].desc;
+            this.name = data[0].name;
+            this.desc = data[0].desc;
           });
         })
         .catch((err) => {
