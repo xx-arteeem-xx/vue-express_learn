@@ -6,7 +6,7 @@
 <template>
     <Header />
 
-    <div class="container my-5 main">
+    <div class="container main">
         <div class="p-5 bg-body-tertiary rounded-3">
             <h1 class="text-body-emphasis">
                 Notes Pro - сервис для заметок
@@ -23,5 +23,6 @@
 <style>
     .main{
         min-height: 50vh;
+        margin-top: 20vh;
     }
 </style>
