@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="container footer">
+    <div class="container footer py-5">
         <div class="row align-items-center">
             <div class="col-3 d-flex flex-column justify-content-center py-3">
                 <a href="/" class="link-secondary">

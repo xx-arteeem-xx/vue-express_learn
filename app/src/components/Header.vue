@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="row align-items-center bg-dark rounded header">
+    <div class="row align-items-center bg-dark rounded-3 header">
         <div class="col-3 text-center py-3">
             <a href="/" class="btn">
                 <h2>
@@ -58,5 +58,6 @@
         top: 0;
         left: 0;
         width: 100vw;
+        z-index: 100;
     }
 </style>
