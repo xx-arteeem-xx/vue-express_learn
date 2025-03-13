@@ -31,7 +31,7 @@
         margin: 0;
         padding: 0;
         background: 
-            linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+            linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), 
             url("../assets/background.jpg");
         background-position: center;
         background-size: cover;
